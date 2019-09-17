@@ -1,0 +1,49 @@
+In angular.json
+
+"styles": [
+              "src/styles.css",
+             "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+             "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]},
+
+
+
+
+
+In app.moule.ts
+
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
+https://jasonwatmore.com/post/2018/05/10/angular-6-reactive-forms-validation-example
+
+1.Create project
+2.Install Bootstrap
+3.Create a json file in assets
+4.Add values into json file
+5.Create components in controller package
+6.Create a class in model package
+7.Create a service class in service package
+8.Add routing to app.routing-modules
+9.Add navbar in add.componnet.html
+10.Add formsModule,HttpClientModule and ReactiveFormsModule in app.module.ts
+11.Use observables to get data from json in service class
+12.Make necessary functions in service class
+13.Make required changes in component's ts and html files.
+
+
+Commands:
+1.ng new BindingDemo
+2.ng g c componentname
+3.ng g class employee
+4.ng g s servicename
+5.npm install bootstrap@latest jquery --save
+
+
+Comments
+ts file:/*    */
+html: !<--    -->
